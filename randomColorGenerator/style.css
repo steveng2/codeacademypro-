@@ -16,7 +16,7 @@ body {
     width: 100%;
     text-align: center;
     font-size: 30px;
-      margin-bottom: 50px;
+    margin-bottom: 50px;
   }
   
   p {
@@ -38,4 +38,195 @@ body {
     font-family: inherit;
     margin: 0 auto;
     margin-bottom: 10px;
+    border: 2px solid green;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
   }
+
+  .btn:hover {
+    background-color: #3e8e41;
+    color: white;
+    border-radius: 70%;
+    transition-duration: 3000ms
+  }
+
+/*media */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito";
+    background-color: lightblue;
+    
+  }
+  img {
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  
+  p {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: navy;
+    margin-bottom: 30px;
+  }
+  
+  button {
+    width: 10.5em;
+    height: 3.4em;
+    display: block;
+    background-color: purple;
+    color: white;
+    font-size: 1.6em;
+  /* font-family: "Nunito"; */
+    font-family: inherit;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 2px solid green;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .btn:hover {
+    background-color: #3e8e41;
+    color: white;
+    border-radius: 70%;
+    transition-duration: 3000ms
+  }
+
+} 
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px; body {
+    padding: 0;
+    margin: auto;
+    font-family: "Nunito";
+    background-color: lightblue;
+  }
+  
+  p {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: navy;
+  }
+#container {
+    display: flex;
+    justify-content: center;
+}
+button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 0;
+} 
+
+  button .btn:hover {
+    width: 350px;
+    height: 100px;
+    background-color: purple;
+    color: white;
+    font-size: 30px;
+  /* font-family: "Nunito"; */
+    font-family: inherit;
+    margin-right: 1px 0;
+    border: 2px solid green;
+    padding: 10px;
+l   transition: 0.3s;
+  } 
+
+} 
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    padding: 0;
+    margin: auto;
+    font-family: "Nunito";
+    background-color: lightblue;
+
+    
+  }
+  img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  
+  p {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: navy;
+  }
+#container {
+    display: flex;
+    justify-content: center;
+}
+button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+  margin-right: 0;
+} 
+
+  button .btn:hover {
+    width: 350px;
+    height: 100px;
+  
+    background-color: purple;
+    color: white;
+    font-size: 30px;
+  /* font-family: "Nunito"; */
+    font-family: inherit;
+    margin-right: 1px 0;
+    border: 2px solid green;
+    padding: 10px;
+l   transition: 0.3s;
+  } 
+
+} 

@@ -10,9 +10,16 @@ The mystery colour works if you hold down the scroll wheel on your mouse while h
 
 Browser support
 https://www.w3schools.com/jsref/event_onwheel.asp
-![Broswer support](support.jpg)
+![Broswer support](support.png)
 
 Started on 02/12/2018
 Finished on 02:/12/2018
+
+NEW add Media Queries screen size
+
+992 and up, 992 and but the buttons are inline. 
+Also add trasition and border-radius.
+
+
 
 The modified version will be documented with the technology stack that I have used.  
